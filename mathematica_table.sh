@@ -1,0 +1,11 @@
+#!/bin/bash
+
+for number in {1..40}
+ do 
+  for ((i=1; i<=10; i++ )) 
+    do 
+      result=$(( number * i ))
+      echo "$number * $i = $result"
+    done
+   echo "printed mathematical table successfully"
+done
